@@ -37,4 +37,4 @@ Wait 2 or 3 min and you can curl the public_dns output or open in the browser.
 ```
 
 [1]: http://www.terraform.io/ "Terraform"
-[2]: https://registry.hub.docker.com/_/alpine "Alpine"
+[2]: https://hub.docker.com/_/alpine/ "Alpine"
