@@ -30,10 +30,11 @@ Create your own config.sh from the config.sample.sh
 ./terraform.sh output public_dns
 ```
 
-Wait 2 or 3 min and you can curl the public_dns output or open in the browser.  
+Wait 1 or 2 min and you can curl the public_dns output or open in the browser.  
 
 ```
 ./terraform.sh destroy
+# Type yes and press enter.
 ```
 
 [1]: http://www.terraform.io/ "Terraform"
