@@ -20,6 +20,12 @@ if [ "$TERM" != "dumb" ] ; then
     TTY='-it'
 fi
 
+if [ `uname -s` != "Darwin" ]; then
+    if [ ! -w "${DOCKER_SOCKET}" ]; then
+        SUDO='sudo'
+    fi
+fi
+
 if [ -z "$1" ]; then
     usage
     exit 1
